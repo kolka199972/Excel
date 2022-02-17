@@ -17,6 +17,8 @@ module.exports = {
     'linebreak-style': 'off',
     'max-len': 'off',
     'arrow-parens': 'off',
-    'object-curly-spacing': 'off'
+    'object-curly-spacing': 'off',
+    'require-jsdoc': 'off',
+    'operator-linebreak': 'off'
   }
 }
