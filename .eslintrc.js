@@ -6,9 +6,10 @@ module.exports = {
     }
   },
   env: {
-    browser: true,
-    node: true,
-    es6: true
+    'browser': true,
+    'node': true,
+    'es6': true,
+    'jest/globals': true
   },
   extends: ['eslint:recommended', 'google'],
   rules: {
@@ -20,5 +21,6 @@ module.exports = {
     'object-curly-spacing': 'off',
     'require-jsdoc': 'off',
     'operator-linebreak': 'off'
-  }
+  },
+  plugins: ['jest']
 }
